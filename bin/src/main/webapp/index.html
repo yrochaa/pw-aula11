@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<title>Vida Saudável</title>
+
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="keywords" content="">
+	<meta name="description" content="">
+<!--
+
+Template 2076 Zentro
+
+http://www.tooplate.com/view/2076-zentro
+
+-->
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/animate.min.css">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/nivo-lightbox.css">
+	<link rel="stylesheet" href="css/nivo_themes/default/default.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link href='https://fonts.googleapis.com/css?family=Roboto:400,500' rel='stylesheet' type='text/css'>
+</head>
+<body>
+
+<!-- preloader section -->
+<section class="preloader">
+	<div class="sk-spinner sk-spinner-pulse"></div>
+</section>
+
+<!-- Navegação -->
+<section class="navbar navbar-default navbar-fixed-top" role="navigation">
+	<div class="container">
+		<div class="navbar-header">
+			<button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+				<span class="icon icon-bar"></span>
+				<span class="icon icon-bar"></span>
+				<span class="icon icon-bar"></span>
+			</button>
+			<a href="#" class="navbar-brand">Vida Saudável</a>
+		</div>
+		<div class="collapse navbar-collapse">
+			<ul class="nav navbar-nav navbar-right">
+				<li><a href="#home" class="smoothScroll">Inicio</a></li>
+				<li><a href="#gallery" class="smoothScroll">Calculadora IMC</a></li>
+                <li><a href="#menu" class="smoothScroll">O QUE É IMC</a></li>
+			</ul>
+		</div>
+	</div>
+</section>
+
+
+<!-- Seção de inicio -->
+<section id="home" class="parallax-section">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12 col-sm-12">
+				<h1>Vida Saudável</h1>
+				<h2>VAMOS COMEÇAR  </h2>
+				<a href="calculadoraIMC_jsp" class="smoothScroll btn btn-default">CALCULE SEU IMC</a>
+			</div>
+		</div>
+	</div>		
+</section>
+
+
+<!-- Calculando IMC 
+<section id="gallery" class="parallax-section">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-offset-2 col-md-8 col-sm-12 text-center">
+				<h1 class="heading">Calculando IMC</h1>
+				<hr>
+			</div>
+
+<a href="calculadoraIMC_jsp">Calcula IMC</a>
+<hr>
+			
+<script type="text/javascript">
+    
+	function calcula_imc(){
+    var altura = document.imcForm.altura.value;
+    var peso = document.imcForm.peso.value;
+    var quadrado = (altura * altura);
+
+    var calculo = (10000*peso/quadrado);
+
+        if(calculo<17){   
+            alert("Você está MUITO ABAIXO DO PESO ! IMC " + calculo.toFixed(2));
+        }
+		else if(calculo>=17 && calculo<=18.5){   
+            alert("Você está ABAIXO DO PESO ! IMC " + calculo.toFixed(2));
+        }
+        else if(calculo>=18.5 && calculo<24.9){
+            alert("Você está com o PESO NORMAL ! IMC: " + calculo.toFixed(2));
+        }
+        else if(calculo>=25 && calculo<29.9) {
+            alert("Você está ACIMA DO PESO ! IMC: " + calculo.toFixed(2));
+        }
+        else if(calculo>=30 && calculo<34.9) {
+            alert("Você está com OBESIDADE 1 ! IMC: " + calculo.toFixed(2));
+        }
+		else if(calculo>=35 && calculo<39.9) {
+            alert("Você está com OBESIDADE 2 (severa)! IMC: " + calculo.toFixed(2));
+        }
+        else if (calculo>40)
+        alert("Você está com OBESIDADE 3 (mórbida)! IMC: " + calculo.toFixed(2));
+    }
+</script>
+
+
+<div class="col-md-offset-2 col-md-8 col-sm-12 text-center">
+<title>Calculadora IMC</title>
+</head>
+<body>
+
+    <form name="imcForm" id="imcForm" action="#">
+     <p>
+    <p><br/><br/>
+    Altura (cm)<br/>
+        <input type="text" id="altura" name="altura" />
+    </p>
+    <p>Peso (kg) <br />
+        <input type="text" id="peso" name="peso" />
+    </p>
+    <p>
+    <label> 
+        <input type="radio" name="sexo" value="op??o" id="sexo_0" />
+    Masculino</label>
+    <br />
+    <label>
+        <input type="radio" name="sexo" value="op??o" id="sexo_1" />
+    Feminino</label>
+    </p> <span style="font-size: x-small;"><a  href="http://www.emagrecerpravaler.com" target=?_blank?></a>
+<p><input class=css_btn_class name="Enviar" type="submit" value="Calcular" onclick="calculadoraIMC_jsp" />
+</p>
+					<div id="alert"> <%=resultado%> </div>
+				</p>
+			</form>
+		</div>
+	</div>
+</section> -->
+
+<!-- definição de imc -->
+<section id="menu" class="parallax-section">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-offset-2 col-md-8 col-sm-12 text-center">
+				<h1 class="heading">O que é IMC ?</h1>
+				<hr>
+			</div>
+			<div class="col-md-10 col-sm-9">
+				<h4>IMC é uma sigla utilizada para Índice de Massa Corporal. 
+                    O Índice de Massa Corporal é uma medida utilizada para medir a obesidade adotada pela Organização Mundial de Saúde (OMS). É o padrão internacional para avaliar o grau de obesidade.
+                    O sobrepeso e a obesidade, indicados pelo IMC, são fatores de risco para doenças tais como a hipertensão arterial, a doença arterial coronariana e o diabetes melittus, além de outras patologias consideradas de alto risco para a Saúde Pública.
+                    Hoje em dia, o IMC é utilizado como forma de comparar a saúde de populações, ou até mesmo definir prescrição de medicações.
+                    Os valores de IMC são independentes de idade e sexo. Apesar disso, o IMC pode não corresponder ao mesmo grau de gordura em diferentes populações devido às diferentes proporções do corpo.
+                    Riscos à saúde associados ao aumento do IMC devem ser constantemente observados e interpretados, já que podem ser diferentes em cada população.</span></h4>
+				<h5>Fonte: OMS</h5>
+			</div>
+		</div>
+	</div>
+</section>		
+
+
+<!-- Contato -->
+<footer class="parallax-section">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-4 col-sm-4 wow fadeInUp" data-wow-delay="0.6s">
+				<h2 class="heading">Contate-nos</h2>
+				<div class="ph">
+					<p><i class="fa fa-phone"></i> Telefone</p>
+					<h4>62-9-9910-1010</h4>
+				</div>
+				<div class="address">
+					<p><i class="fa fa-map-marker"></i>Nossa Localização</p>
+					<h4>Av. 84, Ed. Boa Forma, Goiânia, Goiás, BR</h4>
+				</div>
+			</div>
+			<div class="col-md-4 col-sm-4 wow fadeInUp" data-wow-delay="0.6s">
+				<h2 class="heading">Aberto ás</h2>
+					<p>Seg-Sext <span>8:00 AM - 6:00 PM</span></p>
+					<p>Saabados <span>8:00 AM - 12:00 PM</span></p>
+			</div>
+		</div>
+	</div>
+</footer>
+
+
+<!-- copyright -->
+<section id="copyright">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12 col-sm-12">
+				<h3>Vida Saúdavel</h3>
+				<p>Copyright © Vida Saudável Espaço e Bem Estar 
+                
+                | Design: <a rel="nofollow" href="http://www.tooplate.com" target="_parent">Tooplate</a></p>
+			</div>
+		</div>
+	</div>
+</section>
+
+<!-- JAVASCRIPT JS FILES -->	
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.parallax.js"></script>
+<script src="js/smoothscroll.js"></script>
+<script src="js/nivo-lightbox.min.js"></script>
+<script src="js/wow.min.js"></script>
+<script src="js/custom.js"></script>
+
+</body>
+</html>
