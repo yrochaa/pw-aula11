@@ -11,9 +11,9 @@ public class MenorMaiorJaxRs {
 	@GET
 	@Path("/calcular")
 	//@Produces("application/json")
-	public Calculo calcular(@QueryParam("idade") int idade) {
-	  Calculo c = new Calculo(idade);
-	  c.calcular();
+	public Calculo CalculaModel(@QueryParam("altura") double altura) {
+	  Calculo c = new Calculo(altura,peso);
+	  c.calculo();
 	  return c;
 	}
 }
